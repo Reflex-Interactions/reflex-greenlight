@@ -302,7 +302,7 @@ fr:
     designs: Designs personnalisés
     authentication: Authentification de l'utilisateur
   footer:
-    legal: Conditions d'utilisation
+    legal: 'Conditions d''utilisation'
     privpolicy: Politique de confidentialité
     powered_by: "Service offert par <a href="https://reflexinteractions.com">reflexinteractions.com</a>."
   forgot_password:
