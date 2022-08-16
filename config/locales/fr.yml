@@ -304,7 +304,7 @@ fr:
   footer:
     legal: 'Conditions d''utilisation'
     privpolicy: Politique de confidentialité
-    powered_by: "Service offert par <a href="https://reflexinteractions.com">reflexinteractions.com</a>."
+    powered_by: "Service offert par <a href=\"https://reflexinteractions.com\">reflexinteractions.com</a>."
   forgot_password:
     subtitle: Mot de passe oublié
     email: Email
