@@ -1,18 +1,18 @@
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+# Multiroom open source conferencing system.
 #
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+# Copyright (c) 2018 Multiroom Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# Multiroom is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# with Multiroom; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -119,7 +119,7 @@ fr:
       shared_access:
         info: "En désactivant, le bouton de partage sera supprimé de la liste des options de la salle, empêchant ainsi les utilisateurs de partager des salles"
         title: Autorise les utilisateurs à partager la salle
-      subtitle: Personnaliser Greenlight
+      subtitle: Personnaliser Multiroom Manager
       tabs:
         appearance: Apparence
         administration: Administration
@@ -175,13 +175,13 @@ fr:
     room_configuration:
       title: Configuration de la salle
       mute:
-        info: Rendre automatiquement silencieux les utilisateurs lorsqu'ils rejoignent la réunion BigBlueButton
+        info: Rendre automatiquement silencieux les utilisateurs lorsqu'ils rejoignent la réunion Multiroom
       require_moderator:
-        info: "Avertit le modérateur d'une conférence BigBlueButton lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est approuvé, il pourra se joindre à la réunion."
+        info: "Avertit le modérateur d'une conférence Multiroom lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est approuvé, il pourra se joindre à la réunion."
       allow_any:
         info: "Permet à n'importe quel utilisateur de démarrer la réunion à n'importe quel moment. Par défaut, seul le propriétaire peut démarrer la réunion."
       all_moderator:
-        info: Donne à tous les utilisateurs les droits de modérateur  lors de leur connexion à la réunion dans BigBlueButton.
+        info: Donne à tous les utilisateurs les droits de modérateur  lors de leur connexion à la réunion dans Multiroom.
       recordings:
         info: "Permet aux propriétaires d'une salle de préciser s'ils souhaitent ou non avoir la possibilité d'enregistrer. Si cette option est activée, le modérateur doit toujours cliquer sur le bouton « Enregistrer » une fois que la réunion a commencé."
       moderator_codes:
@@ -232,7 +232,7 @@ fr:
         valid: Valide
       title: Gérer les utilisateurs
   add_to_google_calendar: "Ajouter au calendrier Google"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Multiroom
   bigbluebutton_exception: "Oups, une erreur s'est produite lors du démarrage de la réunion !"
   cancel: Annuler
   cookies:
@@ -253,7 +253,7 @@ fr:
   errors:
     bigbluebutton:
       help: "Veuillez vous assurer que les mesures appropriées ont été prises.<a href=\"%{doc_link}\">En savoir plus</a>"
-      message: BigBlueButton Endpoint et Secret non valide.
+      message: Multiroom Endpoint et Secret non valide.
       title: Erreur serveur
     internal:
       message: Il semblerait que quelque chose se soit mal passé de notre côté.
@@ -266,9 +266,9 @@ fr:
       contact_admin: "Si vous n’êtes pas un administrateur, veuillez en contacter un."
       continue: Je veux continuer à utiliser la 1.0.
       notice: >
-        Greenlight a rencontré une erreur de migration de la base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour vers Greenlight 2.0.
+        Multiroom Manager a rencontré une erreur de migration de la base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour vers Multiroom Manager 2.0.
       upgrade: Montrez-moi comment passer à la version 2.0 !
-      version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+      version: "Nous avons publié une nouvelle version de Multiroom Manager, mais votre base de données n'est pas compatible."
     messages:
       blank: ne peut pas être vide
       too_short: est trop court
@@ -310,7 +310,7 @@ fr:
     email: Email
     submit: Soumettre
   go_back: Retour
-  greenlight: Greenlight
+  greenlight: Multiroom Manager
   header:
     all_recordings: Tous les enregistrements
     dropdown:
@@ -330,16 +330,16 @@ fr:
       mailer:
         subject: 'vous a invité à visionner un enregistrement.'
         body: 'Pour visionner l''enregistrement, suivez le lien ci-dessous :'
-        autogenerated: 'Ce courriel est généré automatiquement par BigBlueButton.'
-        footer: 'BigBlueButton est un système de web-conférence open-source. Pour plus d''informations sur BigBlueButton, voir https://bigbluebutton.org/.'
+        autogenerated: 'Ce courriel est généré automatiquement par Multiroom.'
+        footer: 'Multiroom est un système de web-conférence open-source. Pour plus d''informations sur Multiroom, voir https://bigbluebutton.org/.'
     search:
       start: Commencer la recherche...
   landing:
-    about: "%{href} est une interface simple pour votre serveur de web- conférence open-source BigBlueButton. Vous pouvez créer vos propres salles pour héberger des sessions ou  en rejoindre d'autres  via un lien court et pratique. "
-    welcome: Bienvenue sur BigBlueButton.
-    video: Regardez notre tutoriel sur l'utilisation de Greenlight
+    about: "%{href} est une interface simple pour votre serveur de web- conférence open-source Multiroom. Vous pouvez créer vos propres salles pour héberger des sessions ou  en rejoindre d'autres  via un lien court et pratique. "
+    welcome: Bienvenue sur Multiroom.
+    video: Regardez notre tutoriel sur l'utilisation de Multiroom Manager
     upgrade: Montrez-moi comment passer à la version 2.0 !
-    version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+    version: "Nous avons publié une nouvelle version de Multiroom Manager, mais votre base de données n'est pas compatible."
   language_default: Par défaut (langue du navigateur)
   ldap_error: Impossible de se connecter au serveur LDAP. Veuillez vérifier votre configuration LDAP dans le fichier env et vous assurer que votre serveur est en cours d'exécution.
   login: S'identifier
@@ -353,10 +353,10 @@ fr:
         signin: "Pour accéder à vos salles personnelles, cliquez sur le bouton ci-dessous et identifiez-vous."
         signin_link: Connexion
         signup:
-          info: Un nouvel utilisateur s'est inscrit pour utiliser Greenlight.
-          more-info: "Pour autoriser cet utilisateur à accéder à Greenlight, vous devez approuver son compte depuis la page \"Organisation\"."
+          info: Un nouvel utilisateur s'est inscrit pour utiliser Multiroom Manager.
+          more-info: "Pour autoriser cet utilisateur à accéder à Multiroom Manager, vous devez approuver son compte depuis la page \"Organisation\"."
           admins_link: Visitez la page "Organisation"
-          subject: Inscription d'un nouvel utilisateur Greenlight
+          subject: Inscription d'un nouvel utilisateur Multiroom Manager
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}. "
         subject: Compte approuvé
         username: "Votre nom d'utilisateur est %{email}."
@@ -371,11 +371,11 @@ fr:
         signup_link: Inscription
         valid: "L'invitation est valable jusqu'à: %{date}"
         signup:
-          info: Un utilisateur invité s'est inscrit pour utiliser Greenlight.
+          info: Un utilisateur invité s'est inscrit pour utiliser Multiroom Manager.
           admins_link: Visitez la page "Organisation"
-          subject: Inscription d'un nouvel utilisateur Greenlight
+          subject: Inscription d'un nouvel utilisateur Multiroom Manager
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}."
-        subject: Invitation à joindre BigBlueButton
+        subject: Invitation à joindre Multiroom
         username: "Votre nom d'utilisateur est %{email}."
       password_reset:
         title: 'Réinitialiser le mot de passe'
@@ -590,7 +590,7 @@ fr:
     enter_the_moderator_access_code: Saisissez le code modérateur !
     optional_moderator_access_code: "Code modérateur optionnel:"
     invalid_provider: Vous avez saisi une url non valide. Veuillez vérifier l'url et essayez à nouveau.
-    invitation_description: "Vous avez été invité à rejoindre 1%{name} en utilisant  BigBlueButton. Pour ce faire, cliquez sur le lien ci-dessus et saisissez votre nom."
+    invitation_description: "Vous avez été invité à rejoindre 1%{name} en utilisant  Multiroom. Pour ce faire, cliquez sur le lien ci-dessus et saisissez votre nom."
     invited: Vous avez été invité à rejoindre
     recording_present: Je reconnais que cette session va être enregistrée. Cela peut inclure ma voix et la vidéo si elle est activée.
     invite_participants: Inviter des participants
